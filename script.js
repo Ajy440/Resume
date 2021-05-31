@@ -20,9 +20,11 @@ db.collection("Projects")
         doc.data().Name +
         `</h4>` +
         `<p style="font-size: 1.2vw;"><i class="far fa-square text-primary"></i>` +
+        ` ` +
         doc.data().Descrption +
         `</p>` +
         `<p style="font-size: 1.2vw;"><i class="far fa-square text-primary"></i>Technology used - ` +
+        ` ` +
         doc.data().Technologyused +
         `</p>`;
     });
